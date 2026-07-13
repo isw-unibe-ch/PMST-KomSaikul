@@ -4,9 +4,12 @@ plugins:
   - paralex:
       paralex_package_path: "pmst-komsaikul.package.json"
       layout_tables:
-        - tense/polarity
+        - tense
+        - polarity
       layout_rows:
-        -  person/number
+        - person
+        - number
       layout_columns:
-        - person/number
+        - person
+        - number
 repo_url: https://github.com/isw-unibe-ch/PMST-KomSaikul
