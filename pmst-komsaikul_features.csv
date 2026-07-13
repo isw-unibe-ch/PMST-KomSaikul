@@ -1,0 +1,12 @@
+value_id,label,feature,unimorph,language_id
+excl,exclusive,clusivity,EXCL,komsaikul
+incl,inclusive,clusivity,INCL,komsaikul
+pl,plural,number,PL,komsaikul
+sg,singular,number,SG,komsaikul
+1,first person,person,1,komsaikul
+2,second person,person,2,komsaikul
+3,third person,person,3,komsaikul
+aff,affirmative,polarity,POS,komsaikul
+neg,negative,polarity,NEG,komsaikul
+fut,future,tense_aspect,FUT,komsaikul
+nfut,non-future,tense_aspect,,komsaikul

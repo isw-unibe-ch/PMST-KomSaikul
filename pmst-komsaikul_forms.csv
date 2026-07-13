@@ -1,0 +1,234 @@
+form_id,lexeme,cell,source_form,orth_form,analysed_orth_form,phon_form,analysed_phon_form,epistemic_tag,variants_tag,analysis_tag,overabundance_tag,source,page,language_id
+komsaikul001,no_stem,1.sg,kei,kei,kei,k ei,k ei,elicited,unspecified,,,Kanshouwa2025Saikul,nopage,komsaikul
+komsaikul002,no_stem,1.pl.excl,keini,keini,kei+ni,k ei n i,k ei + n i,elicited,unspecified,,,Kanshouwa2025Saikul,nopage,komsaikul
+komsaikul003,no_stem,1.pl.incl,eini,eini,ei+ni,ei n i,ei + n i,elicited,unspecified,,,Kanshouwa2025Saikul,nopage,komsaikul
+komsaikul004,no_stem,2.sg,nang,nang,nang,n a ŋ,n a ŋ,elicited,unspecified,,,Kanshouwa2025Saikul,nopage,komsaikul
+komsaikul005,no_stem,2.pl,nangni,nangni,nang+ni,n a ŋ n i,n a ŋ + n i,elicited,unspecified,,,Kanshouwa2025Saikul,nopage,komsaikul
+komsaikul006,no_stem,3.sg,ama,ama,a+ma,a m a,a + m a,elicited,unspecified,,,Kanshouwa2025Saikul,nopage,komsaikul
+komsaikul007,no_stem,3.pl,anmani,anmani,a+n+ma+ni,a n m a n i,a + n + m a + n i,elicited,unspecified,,,Kanshouwa2025Saikul,nopage,komsaikul
+komsaikul008,se,1.sg.fut.aff,ka-se-sik-eng,ka-Σ-sik-eng,ka+Σ+sik+eng,k a Σ s i k e ŋ,k a + Σ + s i k + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul009,se,1.pl.incl.fut.aff,ka-se-sik-me,ka-Σ-sik-me,ka+Σ+sik+me,k a Σ s i k m e,k a + Σ + s i k + m e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul010,se,1.pl.excl.fut.aff,ka-se-sik-ung,ka-Σ-sik-ung,ka+Σ+sik+ung,k a Σ s i k u ŋ,k a + Σ + s i k + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul011,hmu,1.sg.2.sg.fut.aff,ka-hmu-sik-che,ka-Σ-sik-che,ka+Σ+sik+che,k a Σ s i k tʃ e,k a + Σ + s i k + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul012,hmu,1.sg.2.pl.fut.aff,ka-hmu-sik-chei,ka-Σ-sik-chei,ka+Σ+sik+chei,k a Σ s i k tʃ ei,k a + Σ + s i k + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul013,hmu,1.pl.excl.2.sg.fut.aff,kan-hmu-sik-che,kan-Σ-sik-che,ka+n+Σ+sik+che,k a n Σ s i k tʃ e,k a + n + Σ + s i k + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul014,hmu,1.pl.excl.2.pl.fut.aff,kan-hmu-sik-chei,kan-Σ-sik-chei,ka+n+Σ+sik+chei,k a n Σ s i k tʃ ei,k a + n + Σ + s i k + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul015,hmu,1.sg.3.sg.fut.aff,ka-hmu-sik,ka-Σ-sik,ka+Σ+sik,k a Σ s i k,k a + Σ + s i k,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul016,hmu,1.sg.3.pl.fut.aff,ka-hmu-sik-hei,ka-Σ-sik-hei,ka+Σ+sik+hei,k a Σ s i k h ei,k a + Σ + s i k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul017,hmu,1.pl.incl.3.sg.fut.aff,ni-hmu-sik,ni-Σ-sik,ni+Σ+sik,n i Σ s i k,n i + Σ + s i k,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul018,hmu,1.pl.excl.3.sg.fut.aff,kan-hmu-sik,kan-Σ-sik,ka+n+Σ+sik,k a n Σ s i k,k a + n + Σ + s i k,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul019,hmu,1.pl.incl.3.pl.fut.aff,ni-hmu-sik-hei,ni-Σ-sik-hei,ni+Σ+sik+hei,n i Σ s i k h ei,n i + Σ + s i k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul020,hmu,1.pl.excl.3.pl.fut.aff,kan-hmu-sik-hei,kan-Σ-sik-hei,ka+n+Σ+sik+hei,k a n Σ s i k h ei,k a + n + Σ + s i k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul021,se,2.sg.fut.aff,ka-se-sik-che,ka-Σ-sik-che,ka+Σ+sik+che,k a Σ s i k tʃ e,k a + Σ + s i k + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul022,se,2.pl.fut.aff,ka-se-sik-chei,ka-Σ-sik-chei,ka+Σ+sik+chei,k a Σ s i k tʃ ei,k a + Σ + s i k + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul023,hmu,2.sg.1.sg.fut.aff,na-hmu-sik-eng,na-Σ-sik-eng,na+Σ+sik+eng,n a Σ s i k e ŋ,n a + Σ + s i k + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul024,hmu,2.sg.1.pl.excl.fut.aff,na-hmu-sik-ung,na-Σ-sik-ung,na+Σ+sik+ung,n a Σ s i k u ŋ,n a + Σ + s i k + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul025,hmu,2.pl.1.sg.fut.aff,nan-hmu-sik-eng,nan-Σ-sik-eng,na+n+Σ+sik+eng,n a n Σ s i k e ŋ,n a + n + Σ + s i k + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul026,hmu,2.pl.1.pl.excl.fut.aff,nan-hmu-sik-ung,nan-Σ-sik-ung,na+n+Σ+sik+ung,n a n Σ s i k u ŋ,n a + n + Σ + s i k + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul027,hmu,2.sg.3.sg.fut.aff,na-hmu-sik,na-Σ-sik,na+Σ+sik,n a Σ s i k,n a + Σ + s i k,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul028,hmu,2.sg.3.pl.fut.aff,na-hmu-sik-hei,na-Σ-sik-hei,na+Σ+sik+hei,n a Σ s i k h ei,n a + Σ + s i k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul029,hmu,2.pl.3.sg.fut.aff,nan-hmu-sik,nan-Σ-sik,na+n+Σ+sik,n a n Σ s i k,n a + n + Σ + s i k,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul030,hmu,2.pl.3.pl.fut.aff,nan-hmu-sik-hei,nan-Σ-sik-hei,na+n+Σ+sik+hei,n a n Σ s i k h ei,n a + n + Σ + s i k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul031,se,3.sg.fut.aff,ka-se-sik,ka-Σ-sik,ka+Σ+sik,k a Σ s i k,k a + Σ + s i k,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul032,se,3.pl.fut.aff,ka-se-sik-hei,ka-Σ-sik-hei,ka+Σ+sik+hei,k a Σ s i k h ei,k a + Σ + s i k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul033,hmu,3.sg.1.sg.fut.aff,a-hmu-sik-eng,a-Σ-sik-eng,a+Σ+sik+eng,a Σ s i k e ŋ,a + Σ + s i k + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul034,hmu,3.sg.1.pl.excl.fut.aff,a-hmu-sik-ung,a-Σ-sik-ung,a+Σ+sik+ung,a Σ s i k u ŋ,a + Σ + s i k + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul035,hmu,3.sg.1.pl.incl.fut.aff,a-hmu-sik-me,a-Σ-sik-me,a+Σ+sik+me,a Σ s i k m e,a + Σ + s i k + m e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul036,hmu,3.pl.1.sg.fut.aff,an-hmu-sik-eng,an-Σ-sik-eng,a+n+Σ+sik+eng,a n Σ s i k e ŋ,a + n + Σ + s i k + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul037,hmu,3.pl.1.pl.excl.fut.aff,an-hmu-sik-ung,an-Σ-sik-ung,a+n+Σ+sik+ung,a n Σ s i k u ŋ,a + n + Σ + s i k + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul038,hmu,3.pl.1.pl.incl.fut.aff,an-hmu-sik-me,an-Σ-sik-me,a+n+Σ+sik+me,a n Σ s i k m e,a + n + Σ + s i k + m e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul039,hmu,3.sg.2.sg.fut.aff,a-hmu-sik,a-Σ-sik,a+Σ+sik+che,a Σ s i k tʃ e,a + Σ + s i k + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul040,hmu,3.sg.2.pl.fut.aff,a-hmu-sik-chei,a-Σ-sik-chei,a+Σ+sik+chei,a Σ s i k tʃ ei,a + Σ + s i k + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul041,hmu,3.pl.2.sg.fut.aff,an-hmu-sik-che,an-Σ-sik-che,a+n+Σ+sik+che,a n Σ s i k tʃ e,a + n + Σ + s i k + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul042,hmu,3.pl.2.pl.fut.aff,an-hmu-sik-chei,an-Σ-sik-chei,a+n+Σ+sik+chei,a n Σ s i k tʃ ei,a + n + Σ + s i k + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul043,hmu,3.sg.3.sg.fut.aff,a-hmu-sik,a-Σ-sik,a+Σ+sik,a Σ s i k,a + Σ + s i k,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul044,hmu,3.sg.3.pl.fut.aff,a-hmu-sik-hei,a-Σ-sik-hei,a+Σ+sik+hei,a Σ s i k h ei,a + Σ + s i k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul045,hmu,3.pl.3.sg.fut.aff,an-hmu-sik,an-Σ-sik,a+n+Σ+sik,a n Σ s i k,a + n + Σ + s i k,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul046,hmu,3.pl.3.pl.fut.aff,an-hmu-sik-hei,an-Σ-sik-hei,a+n+Σ+sik+hei,a n Σ s i k h ei,a + n + Σ + s i k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul047,se,1.sg.fut.neg,se-mak-ning,Σ-mak-ning,Σ+mak+n+ing,Σ m a k n i ŋ,Σ + m a k + n + i ŋ,generated,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul048,se,1.sg.fut.neg,se-mak-ning-eng,Σ-mak-ning-eng,Σ+mak+n+ing+eng,Σ m a k n i ŋ e ŋ,Σ + m a k + n + i ŋ + e ŋ,elicited,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul049,se,1.pl.incl.fut.neg,se-mak-ning-men,Σ-mak-ning-men,Σ+mak+n+ing+me+n,Σ m a k n i ŋ m e n,Σ + m a k + n + i ŋ + m e + n,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul050,se,1.pl.incl.fut.neg,se-mak-ning-min,Σ-mak-ning-min,Σ+mak+n+ing+mi+n,Σ m a k n i ŋ m i n,Σ + m a k + n + i ŋ + m i + n,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul051,se,1.pl.incl.fut.neg,se-mak-min,Σ-mak-min,Σ+mak+mi+n,Σ m a k m i n,Σ + m a k + m i + n,elicited,unspecified,,optional_future,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul052,se,1.pl.excl.fut.neg,se-mak-ning-ung,Σ-mak-ning-ung,Σ+mak+n+ing+ung,Σ m a k n i ŋ u ŋ,Σ + m a k + n + i ŋ + u ŋ,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul053,se,1.pl.excl.fut.neg,se-mak-ni-ung,Σ-mak-ni-ung,Σ+mak+ni+ung,Σ m a k n i u ŋ,Σ + m a k + n i + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul054,hmu,1.sg.2.sg.fut.neg,hmu-mak-che-ning,Σ-mak-che-ning,Σ+mak+che+n+ing,Σ m a k tʃ e n i ŋ,Σ + m a k + tʃ e + n + i ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul055,hmu,1.sg.2.pl.fut.neg,hmu-mak-chei-ni-eng,Σ-mak-chei-ni-eng,Σ+mak+chei+ni+eng,Σ m a k tʃ ei n i e ŋ,Σ + m a k + tʃ ei + n i + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul056,hmu,1.sg.3.pl.fut.neg,hmu-mak-hei-ni-eng,Σ-mak-hei-ni-eng,Σ+mak+hei+ni+eng,Σ m a k h ei n i e ŋ,Σ + m a k + h ei + n i + e ŋ,elicited,formal,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul057,hmu,1.sg.3.pl.fut.neg,hmu-mak-hei-ning,Σ-mak-hei-ning,Σ+mak+hei+n+ing,Σ m a k h ei n i ŋ,Σ + m a k + h ei + n + i ŋ,elicited,informal,,fusion,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul058,hmu,1.pl.excl.2.sg.fut.neg,hmu-mak-che-ni-ung,Σ-mak-che-ni-ung,Σ+mak+che+ni+ung,Σ m a k tʃ e n i u ŋ,Σ + m a k + tʃ e + n i + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul059,hmu,1.pl.excl.2.sg.fut.neg,hmu-mak-che-ning-ung,Σ-mak-che-ning-ung,Σ+mak+che+n+ing+ung,Σ m a k tʃ e n i ŋ u ŋ,Σ + m a k + tʃ e + n + i ŋ + u ŋ,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul060,hmu,1.pl.excl.2.pl.fut.neg,hmu-mak-chei-ni-ung,Σ-mak-chei-ni-ung,Σ+mak+chei+ni+ung,Σ m a k tʃ ei n i u ŋ,Σ + m a k + tʃ ei + n i + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul061,hmu,1.pl.excl.2.pl.fut.neg,hmu-mak-chei-ning-ung,Σ-mak-chei-ning-ung,Σ+mak+chei+n+ing+ung,Σ m a k tʃ ei n i ŋ u ŋ,Σ + m a k + tʃ ei + n + i ŋ + u ŋ,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul062,hmu,1.sg.3.sg.fut.neg,hmu-mak-ni-eng,Σ-mak-ni-eng,Σ+mak+ni+eng,Σ m a k n i e ŋ,Σ + m a k + n i + e ŋ,elicited,formal,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul063,hmu,1.sg.3.sg.fut.neg,hmu-mak-ning,Σ-mak-ning,Σ+mak+n+ing,Σ m a k n i ŋ,Σ + m a k + n + i ŋ,elicited,informal,,fusion,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul064,hmu,1.pl.incl.3.sg.fut.neg,hmu-mak-ni-me,Σ-mak-ni-me,Σ+mak+ni+me+n,Σ m a k n i m e n,Σ + m a k + n i + m e + n,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul065,hmu,1.pl.incl.3.sg.fut.neg,hmu-mak-ning-me,Σ-mak-ning-me,Σ+mak+n+ing+me+n,Σ m a k n i ŋ m e n,Σ + m a k + n + i ŋ + m e + n,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul066,hmu,1.pl.incl.3.sg.fut.neg,hmu-mak-ning-me,Σ-mak-ning-me,Σ+mak+n+ing+mi+n,Σ m a k n i ŋ m i n,Σ + m a k + n + i ŋ + m i + n,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul067,hmu,1.pl.excl.3.sg.fut.neg,hmu-mak-ni-ung,Σ-mak-ni-ung,Σ+mak+ni+ung,Σ m a k n i u ŋ,Σ + m a k + n i + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul068,hmu,1.pl.excl.3.sg.fut.neg,hmu-mak-ning-ung,Σ-mak-ning-ung,Σ+mak+n+ing+ung,Σ m a k n i ŋ u ŋ,Σ + m a k + n + i ŋ + u ŋ,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul069,hmu,1.pl.incl.3.pl.fut.neg,hmu-mak-hei-ni-men,Σ-mak-hei-ni-men,Σ+mak+hei+ni+me+n,Σ m a k h ei n i m e n,Σ + m a k + h ei + n i + m e + n,elicited,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul070,hmu,1.pl.incl.3.pl.fut.neg,hmu-mak-hei-ning-men,Σ-mak-hei-ning-men,Σ+mak+hei+n+ing+me+n,Σ m a k h ei n i ŋ m e n,Σ + m a k + h ei + n + i ŋ + m e + n,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul071,hmu,1.pl.incl.3.pl.fut.neg,hmu-mak-hei-ning-min,Σ-mak-hei-ning-min,Σ+mak+hei+n+ing+mi+n,Σ m a k h ei n i ŋ m i n,Σ + m a k + h ei + n + i ŋ + m i + n,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul072,hmu,1.pl.excl.3.pl.fut.neg,hmu-mak-hei-ni-ung,Σ-mak-hei-ni-ung,Σ+mak+hei+ni+ung,Σ m a k h ei n i u ŋ,Σ + m a k + h ei + n i + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul073,hmu,1.pl.excl.3.pl.fut.neg,hmu-mak-hei-ning-ung,Σ-mak-hei-ning-ung,Σ+mak+hei+n+ing+ung,Σ m a k h ei n i ŋ u ŋ,Σ + m a k + h ei + n + i ŋ + u ŋ,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul074,se,2.sg.fut.neg,se-mak-tin-che,Σ-mak-tin-che,Σ+mak+ti+n+che,Σ m a k t i n tʃ e,Σ + m a k + t i + n + tʃ e,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul075,se,2.sg.fut.neg,se-mak-ning-che,Σ-mak-ning-che,Σ+mak+n+ing+che,Σ m a k n i ŋ tʃ e,Σ + m a k + n + i ŋ + tʃ e,elicited,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul076,se,2.pl.fut.neg,se-mak-tin-chei,Σ-mak-tin-chei,Σ+mak+ti+n+chei,Σ m a k t i n tʃ ei,Σ + m a k + t i + n + tʃ ei,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul077,se,2.pl.fut.neg,se-mak-ning-chei,Σ-mak-ning-chei,Σ+mak+n+ing+chei,Σ m a k n i ŋ tʃ ei,Σ + m a k + n + i ŋ + tʃ ei,elicited,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul078,hmu,2.sg.1.sg.fut.neg,ei-hmu-mak-ning-che,ei-Σ-mak-ning-che,ei+Σ+mak+n+ing+che,ei Σ m a k n i ŋ tʃ e,ei + Σ + m a k + n + i ŋ + tʃ e,generated,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul079,hmu,2.sg.1.sg.fut.neg,a-hmu-mak-ning-che,a-Σ-mak-ning-che,a+Σ+mak+n+ing+che,a Σ m a k n i ŋ tʃ e,a + Σ + m a k + n + i ŋ + tʃ e,generated,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul080,hmu,2.sg.1.sg.fut.neg,ei-hmu-mak-tin-che,ei-Σ-mak-tin-che,ei+Σ+mak+ti+n+che,ei Σ m a k t i n tʃ e,ei + Σ + m a k + t i + n + tʃ e,generated,dialect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul081,hmu,2.sg.1.sg.fut.neg,a-hmu-mak-tin-che,a-Σ-mak-tin-che,a+Σ+mak+ti+n+che,a Σ m a k t i n tʃ e,a + Σ + m a k + t i + n + tʃ e,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul082,hmu,2.sg.1.pl.excl.fut.neg,ei-hmu-mak-tin-che,ei-Σ-mak-tin-che,ei+Σ+mak+ti+n+che,ei Σ m a k t i n tʃ e,ei + Σ + m a k + t i + n + tʃ e,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul083,hmu,2.sg.1.pl.excl.fut.neg,ei-hmu-mak-ning-che,ei-Σ-mak-ning-che,ei+Σ+mak+n+ing+che,ei Σ m a k n i ŋ tʃ e,ei + Σ + m a k + n + i ŋ + tʃ e,elicited,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul084,hmu,2.sg.1.pl.excl.fut.neg,a-hmu-mak-tin-che,a-Σ-mak-tin-che,a+Σ+mak+ti+n+che,a Σ m a k t i n tʃ e,a + Σ + m a k + t i + n + tʃ e,elicited,dialect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul085,hmu,2.sg.1.pl.excl.fut.neg,a-hmu-mak-ning-che,a-Σ-mak-ning-che,a+Σ+mak+n+ing+che,a Σ m a k n i ŋ tʃ e,a + Σ + m a k + n + i ŋ + tʃ e,generated,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul086,hmu,2.pl.1.sg.fut.neg,a-hmu-mak-tin-chei,a-Σ-mak-tin-chei,a+Σ+mak+ti+n+chei,a Σ m a k t i n tʃ ei,a + Σ + m a k + t i + n + tʃ ei,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul087,hmu,2.pl.1.sg.fut.neg,ei-hmu-mak-tin-chei,ei-Σ-mak-tin-chei,ei+Σ+mak+ti+n+chei,ei Σ m a k t i n tʃ ei,ei + Σ + m a k + t i + n + tʃ ei,generated,dialect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul088,hmu,2.pl.1.sg.fut.neg,ei-hmu-mak-ning-chei,ei-Σ-mak-ning-chei,a+Σ+mak+n+ing+chei,a Σ m a k n i ŋ tʃ ei,a + Σ + m a k + n + i ŋ + tʃ ei,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul089,hmu,2.pl.1.sg.fut.neg,a-hmu-mak-ning-chei,a-Σ-mak-ning-chei,ei+Σ+mak+n+ing+chei,ei Σ m a k n i ŋ tʃ ei,ei + Σ + m a k + n + i ŋ + tʃ ei,generated,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul090,hmu,2.pl.1.pl.excl.fut.neg,ei-hmu-mak-tin-chei,ei-Σ-mak-tin-chei,ei+Σ+mak+ti+n+chei,ei Σ m a k t i n tʃ ei,ei + Σ + m a k + t i + n + tʃ ei,generated,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul091,hmu,2.pl.1.pl.excl.fut.neg,a-hmu-mak-tin-chei,a-Σ-mak-tin-chei,a+Σ+mak+ti+n+chei,a Σ m a k t i n tʃ ei,a + Σ + m a k + t i + n + tʃ ei,elicited,dialect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul092,hmu,2.pl.1.pl.excl.fut.neg,ei-hmu-mak-ning-chei,ei-Σ-mak-ning-chei,ei+Σ+mak+n+ing+chei,ei Σ m a k n i ŋ tʃ ei,ei + Σ + m a k + n + i ŋ + tʃ ei,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul093,hmu,2.pl.1.pl.excl.fut.neg,a-hmu-mak-ning-chei,a-Σ-mak-ning-chei,a+Σ+mak+n+ing+chei,a Σ m a k n i ŋ tʃ ei,a + Σ + m a k + n + i ŋ + tʃ ei,generated,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul094,hmu,2.sg.3.sg.fut.neg,hmu-mak-tin-che,Σ-mak-tin-che,Σ+mak+ti+n+che,Σ m a k t i n tʃ e,Σ + m a k + t i + n + tʃ e,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul095,hmu,2.sg.3.sg.fut.neg,hmu-mak-ning-che,Σ-mak-ning-che,Σ+mak+n+ing+che,Σ m a k n i ŋ tʃ e,Σ + m a k + n + i ŋ + tʃ e,elicited,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul096,hmu,2.sg.3.pl.fut.neg,hmu-mak-hei-tin-che,Σ-mak-hei-tin-che,Σ+mak+hei+ti+n+che,Σ m a k h ei t i n tʃ e,Σ + m a k + h ei + t i + n + tʃ e,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul097,hmu,2.sg.3.pl.fut.neg,hmu-mak-hei-ning-che,Σ-mak-hei-ning-che,Σ+mak+hei+n+ing+che,Σ m a k h ei n i ŋ tʃ e,Σ + m a k + h ei + n + i ŋ + tʃ e,elicited,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul098,hmu,2.sg.3.pl.fut.neg,hmu-mak-ning-hei-che,Σ-mak-ning-hei-che,Σ+mak+n+ing+hei+che,Σ m a k n i ŋ h ei tʃ e,Σ + m a k + n + i ŋ + h ei + tʃ e,elicited,sociolect_var,variable_order,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul099,hmu,2.sg.3.pl.fut.neg,hei-hmu-mak-tin-che,hei-Σ-mak-tin-che,hei+Σ+mak+ti+n+che,h ei Σ m a k t i n tʃ e,h ei + Σ + m a k + t i + n + tʃ e,elicited,unspecified,variable_order; mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul100,hmu,2.pl.3.sg.fut.neg,hmu-mak-tin-chei,Σ-mak-tin-chei,Σ+mak+ti+n+chei,Σ m a k t i n tʃ ei,Σ + m a k + t i + n + tʃ ei,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul101,hmu,2.pl.3.sg.fut.neg,hmu-mak-ning-chei,Σ-mak-ning-chei,Σ+mak+n+ing+chei,Σ m a k n i ŋ tʃ ei,Σ + m a k + n + i ŋ + tʃ ei,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul102,hmu,2.pl.3.pl.fut.neg,hmu-mak-hei-tin-chei,Σ-mak-hei-tin-chei,Σ+mak+hei+ti+n+chei,Σ m a k h ei t i n tʃ ei,Σ + m a k + h ei + t i + n + tʃ ei,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul103,hmu,2.pl.3.pl.fut.neg,hei-hmu-mak-tin-chei,hei-Σ-mak-tin-chei,hei+Σ+mak+ti+n+chei,h ei Σ m a k t i n tʃ ei,h ei + Σ + m a k + t i + n + tʃ ei,elicited,sociolect_var,variable_order; mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul104,hmu,2.pl.3.pl.fut.neg,hmu-mak-tin-chei,Σ-mak-tin-chei,Σ+mak+ti+n+chei,Σ m a k t i n tʃ ei,Σ + m a k + t i + n + tʃ ei,elicited,unspecified,mult_exponence,optional_plural,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul105,hmu,2.pl.3.pl.fut.neg,hmu-mak-ning-chei,Σ-mak-ning-chei,Σ+mak+n+ing+chei,Σ m a k n i ŋ tʃ ei,Σ + m a k + n + i ŋ + tʃ ei,elicited,sociolect_var,,optional_plural,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul106,hmu,2.pl.3.pl.fut.neg,hmu-mak-ning-hei-chei,Σ-mak-ning-hei-chei,Σ+mak+n+ing+hei+chei,Σ m a k n i ŋ h ei tʃ ei,Σ + m a k + n + i ŋ + h ei + tʃ ei,elicited,sociolect_var,variable_order,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul107,se,3.sg.fut.neg,se-mak-ning,Σ-mak-ning,Σ+mak+n+ing,Σ m a k n i ŋ,Σ + m a k + n + i ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul108,se,3.pl.fut.neg,se-mak-ning-hei,Σ-mak-ning-hei,Σ+mak+n+ing+hei,Σ m a k n i ŋ h ei,Σ + m a k + n + i ŋ + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul109,hmu,3.sg.1.sg.fut.neg,ei-hmu-mak-ning,ei-Σ-mak-ning,ei+Σ+mak+n+ing,ei Σ m a k n i ŋ,ei + Σ + m a k + n + i ŋ,generated,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul110,hmu,3.sg.1.sg.fut.neg,a-hmu-mak-ning,a-Σ-mak-ning,a+Σ+mak+n+ing,a Σ m a k n i ŋ,a + Σ + m a k + n + i ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul111,hmu,3.sg.1.pl.excl.fut.neg,ei-hmu-mak-ning,ei-Σ-mak-ning,ei+Σ+mak+n+ing,ei Σ m a k n i ŋ,ei + Σ + m a k + n + i ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul112,hmu,3.sg.1.pl.excl.fut.neg,a-hmu-mak-ning,a-Σ-mak-ning,a+Σ+mak+n+ing,a Σ m a k n i ŋ,a + Σ + m a k + n + i ŋ,generated,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul113,hmu,3.sg.1.pl.incl.fut.neg,ei-hmu-mak-ning,ei-Σ-mak-ning,ei+Σ+mak+n+ing,ei Σ m a k n i ŋ,ei + Σ + m a k + n + i ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul114,hmu,3.sg.1.pl.incl.fut.neg,a-hmu-mak-ning,a-Σ-mak-ning,a+Σ+mak+n+ing,a Σ m a k n i ŋ,a + Σ + m a k + n + i ŋ,generated,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul115,hmu,3.pl.1.sg.fut.neg,ei-hmu-mak-hei-ning,ei-Σ-mak-hei-ning,ei+Σ+mak+hei+n+ing,ei Σ m a k h ei n i ŋ,ei + Σ + m a k + h ei + n + i ŋ,elicited,sociolect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul116,hmu,3.pl.1.sg.fut.neg,a-hmu-mak-hei-ning,a-Σ-mak-hei-ning,a+Σ+mak+hei+n+ing,a Σ m a k h ei n i ŋ,a + Σ + m a k + h ei + n + i ŋ,generated,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul117,hmu,3.pl.1.sg.fut.neg,ei-hmu-mak-ning-hei,ei-Σ-mak-ning-hei,ei+Σ+mak+n+ing+hei,ei Σ m a k n i ŋ h ei,ei + Σ + m a k + n + i ŋ + h ei,elicited,sociolect_var,variable_order; mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul118,hmu,3.pl.1.pl.excl.fut.neg,ei-hmu-mak-hei-ning,ei-Σ-mak-hei-ning,ei+Σ+mak+hei+n+ing,ei Σ m a k h ei n i ŋ,ei + Σ + m a k + h ei + n + i ŋ,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul119,hmu,3.pl.1.pl.excl.fut.neg,a-hmu-mak-hei-ning,a-Σ-mak-hei-ning,a+Σ+mak+hei+n+ing,a Σ m a k h ei n i ŋ,a + Σ + m a k + h ei + n + i ŋ,generated,dialect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul120,hmu,3.pl.1.pl.excl.fut.neg,ei-hmu-mak-ning-hei,ei-Σ-mak-ning-hei,ei+Σ+mak+n+ing+hei,ei Σ m a k n i ŋ h ei,ei + Σ + m a k + n + i ŋ + h ei,elicited,sociolect_var,variable_order,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul121,hmu,3.pl.1.pl.incl.fut.neg,ei-hmu-mak-hei-ning,ei-Σ-mak-hei-ning,ei+Σ+mak+hei+n+ing,ei Σ m a k h ei n i ŋ,ei + Σ + m a k + h ei + n + i ŋ,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul122,hmu,3.pl.1.pl.incl.fut.neg,a-hmu-mak-hei-ning,a-Σ-mak-hei-ning,a+Σ+mak+hei+n+ing,a Σ m a k h ei n i ŋ,a + Σ + m a k + h ei + n + i ŋ,generated,dialect_var,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul123,hmu,3.pl.1.pl.incl.fut.neg,a-hmu-mak-ning-hei,a-Σ-mak-ning-hei,ei+Σ+mak+n+ing+hei,ei Σ m a k n i ŋ h ei,ei + Σ + m a k + n + i ŋ + h ei,elicited,sociolect_var,variable_order; mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul124,hmu,3.sg.2.sg.fut.neg,hmu-mak-tin-che,Σ-mak-tin-che,Σ+mak+ti+n+che,Σ m a k t i n tʃ e,Σ + m a k + t i + n + tʃ e,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul125,hmu,3.sg.2.sg.fut.neg,hmu-mak-ning-che,Σ-mak-ning-che,Σ+mak+n+ing+che,Σ m a k n i ŋ tʃ e,Σ + m a k + n + i ŋ + tʃ e,elicited,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul126,hmu,3.sg.2.pl.fut.neg,hmu-mak-tin-chei,Σ-mak-tin-chei,Σ+mak+ti+n+chei,Σ m a k t i n tʃ ei,Σ + m a k + t i + n + tʃ ei,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul127,hmu,3.sg.2.pl.fut.neg,hmu-mak-ning-chei,Σ-mak-ning-chei,Σ+mak+n+ing+chei,Σ m a k n i ŋ tʃ ei,Σ + m a k + n + i ŋ + tʃ ei,elicited,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul128,hmu,3.pl.2.sg.fut.neg,hmu-mak-hei-tin-che,Σ-mak-hei-tin-che,Σ+mak+hei+ti+n+che,Σ m a k h ei t i n tʃ e,Σ + m a k + h ei + t i + n + tʃ e,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul129,hmu,3.pl.2.sg.fut.neg,hmu-mak-hei-ning-che,Σ-mak-hei-ning-che,Σ+mak+hei+n+ing+che,Σ m a k h ei n i ŋ tʃ e,Σ + m a k + h ei + n + i ŋ + tʃ e,elicited,sociolect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul130,hmu,3.pl.2.sg.fut.neg,hmu-mak-ning-hei-che,Σ-mak-ning-hei-che,Σ+mak+n+ing+hei+che,Σ m a k n i ŋ h ei tʃ e,Σ + m a k + n + i ŋ + h ei + tʃ e,elicited,sociolect_var,variable_order,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul131,hmu,3.pl.2.pl.fut.neg,hmu-mak-hei-tin-chei,Σ-mak-hei-tin-chei,Σ+mak+hei+ti+n+chei,Σ m a k h ei t i n tʃ ei,Σ + m a k + h ei + t i + n + tʃ ei,elicited,unspecified,mult_exponence,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul132,hmu,3.pl.2.pl.fut.neg,hmu-mak-tin-chei,Σ-mak-tin-chei,Σ+mak+ti+n+chei,Σ m a k t i n tʃ ei,Σ + m a k + t i + n + tʃ ei,elicited,unspecified,mult_exponence,optional_plural,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul133,hmu,3.pl.2.pl.fut.neg,hmu-mak-ning-chei,Σ-mak-ning-chei,Σ+mak+n+ing+chei,Σ m a k n i ŋ tʃ ei,Σ + m a k + n + i ŋ + tʃ ei,elicited,sociolect_var,,optional_plural,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul134,hmu,3.pl.2.pl.fut.neg,hmu-mak-ning-hei-chei,Σ-mak-ning-hei-chei,Σ+mak+n+ing+hei+chei,Σ m a k n i ŋ h ei tʃ ei,Σ + m a k + n + i ŋ + h ei + tʃ ei,elicited,sociolect_var,variable_order,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul135,hmu,3.sg.3.sg.fut.neg,hmu-mak-ning,Σ-mak-ning,Σ+mak+n+ing,Σ m a k n i ŋ,Σ + m a k + n + i ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul136,hmu,3.sg.3.pl.fut.neg,hmu-mak-hei-ning,Σ-mak-hei-ning,Σ+mak+hei+n+ing,Σ m a k h ei n i ŋ,Σ + m a k + h ei + n + i ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul137,hmu,3.sg.3.pl.fut.neg,hmu-mak-ning-hei,Σ-mak-ning-hei,Σ+mak+n+ing+hei,Σ m a k n i ŋ h ei,Σ + m a k + n + i ŋ + h ei,elicited,sociolect_var,variable_order,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul138,hmu,3.pl.3.sg.fut.neg,hmu-mak-hei-ning,Σ-mak-hei-ning,Σ+mak+hei+n+ing,Σ m a k h ei n i ŋ,Σ + m a k + h ei + n + i ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul139,hmu,3.pl.3.sg.fut.neg,hmu-mak-ning-hei,Σ-mak-ning-hei,Σ+mak+n+ing+hei,Σ m a k n i ŋ h ei,Σ + m a k + n + i ŋ + h ei,elicited,sociolect_var,variable_order,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul140,hmu,3.pl.3.pl.fut.neg,hmu-mak-hei-ning,Σ-mak-hei-ning,Σ+mak+hei+n+ing,Σ m a k h ei n i ŋ,Σ + m a k + h ei + n + i ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul141,hmu,3.pl.3.pl.fut.neg,hmu-mak-ning-hei,Σ-mak-ning-hei,Σ+mak+n+ing+hei,Σ m a k n i ŋ h ei,Σ + m a k + n + i ŋ + h ei,elicited,sociolect_var,variable_order,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul142,se,1.sg.nfut.aff,ka-se-eng,ka-Σ-eng,ka+Σ+eng,k a Σ e ŋ,k a + Σ + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul143,se,1.pl.incl.nfut.aff,ka-se-me,ka-Σ-me,ka+Σ+me,k a Σ m e,k a + Σ + m e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul144,se,1.pl.incl.nfut.aff,ka-se-mi,ka-Σ-mi,ka+Σ+mi,k a Σ m i,k a + Σ + m i,elicited,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul145,se,1.pl.excl.nfut.aff,ka-se-ung,ka-Σ-ung,ka+Σ+ung,k a Σ u ŋ,k a + Σ + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul146,hmu,1.sg.2.sg.nfut.aff,ka-hmu-che,ka-Σ-che,ka+Σ+che,k a Σ tʃ e,k a + Σ + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul147,hmu,1.sg.2.pl.nfut.aff,ka-hmu-chei,ka-Σ-chei,ka+Σ+chei,k a Σ tʃ ei,k a + Σ + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul148,hmu,1.pl.excl.2.sg.nfut.aff,kan-hmu-che,kan-Σ-che,ka+n+Σ+che,k a n Σ tʃ e,k a + n + Σ + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul149,hmu,1.pl.excl.2.pl.nfut.aff,kan-hmu-chei,kan-Σ-chei,ka+n+Σ+chei,k a n Σ tʃ ei,k a + n + Σ + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul150,hmu,1.sg.3.sg.nfut.aff,kan-hmu,kan-Σ,ka+Σ,k a Σ,k a + Σ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul151,hmu,1.sg.3.pl.nfut.aff,kan-hmu-hei,kan-Σ-hei,ka+Σ+hei,k a Σ h ei,k a + Σ + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul152,hmu,1.pl.incl.3.sg.nfut.aff,ni-hmu,ni-Σ,ni+Σ,n i Σ,n i + Σ,elicited,unspecified,,optional_plural,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul153,hmu,1.pl.excl.3.sg.nfut.aff,kan-hmu,kan-Σ,ka+n+Σ,k a n Σ,k a + n + Σ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul154,hmu,1.pl.incl.3.pl.nfut.aff,ni-hmu-hei,ni-Σ-hei,ni+Σ+hei,n i Σ h ei,n i + Σ + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul155,hmu,1.pl.excl.3.pl.nfut.aff,kan-hmu-hei,kan-Σ-hei,ka+n+Σ+hei,k a n Σ h ei,k a + n + Σ + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul156,se,2.sg.nfut.aff,ka-se-che,ka-Σ-che,ka+Σ+che,k a Σ tʃ e,k a + Σ + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul157,se,2.pl.nfut.aff,ka-se-chei,ka-Σ-chei,ka+Σ+chei,k a Σ tʃ ei,k a + Σ + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul158,hmu,2.sg.1.sg.nfut.aff,na-hmu-eng,na-Σ-eng,na+Σ+eng,n a Σ e ŋ,n a + Σ + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul159,hmu,2.sg.1.pl.excl.nfut.aff,na-hmu-ung,na-Σ-ung,na+Σ+ung,n a Σ u ŋ,n a + Σ + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul160,hmu,2.pl.1.sg.nfut.aff,nan-hmu-eng,nan-Σ-eng,na+n+Σ+eng,n a n Σ e ŋ,n a + n + Σ + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul161,hmu,2.pl.1.pl.excl.nfut.aff,nan-hmu-ung,nan-Σ-ung,na+n+Σ+ung,n a n Σ u ŋ,n a + n + Σ + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul162,hmu,2.sg.3.sg.nfut.aff,na-hmu,na-Σ,na+Σ,n a Σ,n a + Σ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul163,hmu,2.sg.3.pl.nfut.aff,na-hmu-hei,na-Σ-hei,na+Σ+hei,n a Σ h ei,n a + Σ + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul164,hmu,2.pl.3.sg.nfut.aff,nan-hmu,nan-Σ,na+n+Σ,n a n Σ,n a + n + Σ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul165,hmu,2.pl.3.pl.nfut.aff,nan-hmu-hei,nan-Σ-hei,na+n+Σ+hei,n a n Σ h ei,n a + n + Σ + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul166,se,3.sg.nfut.aff,ka-se,ka-Σ,ka+Σ,k a Σ,k a + Σ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul167,se,3.pl.nfut.aff,ka-se-hei,ka-Σ-hei,ka+Σ+hei,k a Σ h ei,k a + Σ + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul168,hmu,3.sg.1.sg.nfut.aff,a-hmu-eng,a-Σ-eng,a+Σ+eng,a Σ e ŋ,a + Σ + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul169,hmu,3.sg.1.pl.incl.nfut.aff,a-hmu-me,a-Σ-me,a+Σ+me,a Σ m e,a + Σ + m e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul170,hmu,3.pl.1.sg.nfut.aff,an-hmu-eng,an-Σ-eng,an+Σ+eng,a n Σ e ŋ,a n + Σ + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul171,hmu,3.pl.1.pl.excl.nfut.aff,an-hmu-ung,an-Σ-ung,an+Σ+ung,a n Σ u ŋ,a n + Σ + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul172,hmu,3.pl.1.pl.excl.nfut.aff,a-hmu-ung,a-Σ-ung,a+Σ+ung,a Σ u ŋ,a + Σ + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul173,hmu,3.pl.1.pl.incl.nfut.aff,an-hmu-me,an-Σ-me,an+Σ+me,a n Σ m e,a n + Σ + m e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul174,hmu,3.sg.2.sg.nfut.aff,a-hmu-che,a-Σ-che,a+Σ+che,a Σ tʃ e,a + Σ + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul175,hmu,3.sg.2.pl.nfut.aff,a-hmu-chei,a-Σ-chei,a+Σ+chei,a Σ tʃ ei,a + Σ + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul176,hmu,3.pl.2.sg.nfut.aff,an-hmu-che,an-Σ-che,an+Σ+che,a n Σ tʃ e,a n + Σ + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul177,hmu,3.pl.2.pl.nfut.aff,an-hmu-chei,an-Σ-chei,an+Σ+chei,a n Σ tʃ ei,a n + Σ + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul178,hmu,3.sg.3.sg.nfut.aff,a-hmu,a-Σ,a+Σ,a Σ,a + Σ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul179,hmu,3.sg.3.pl.nfut.aff,a-hmu-hei,a-Σ-hei,a+Σ+hei,a Σ h ei,a + Σ + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul180,hmu,3.pl.3.sg.nfut.aff,an-hmu,an-Σ,an+Σ,a n Σ,a n + Σ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul181,hmu,3.pl.3.pl.nfut.aff,an-hmu-hei,an-Σ-hei,an+Σ+hei,a n Σ h ei,a n + Σ + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul182,se,1.sg.nfut.neg,se-mak-eng,Σ-mak-eng,Σ+mak+eng,Σ m a k e ŋ,Σ + m a k + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul183,se,1.pl.incl.nfut.neg,se-mak-men,Σ-mak-men,Σ+mak+mi+n,Σ m a k m i n,Σ + m a k + m i + n,elicited,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul184,se,1.pl.incl.nfut.neg,se-mak-men,Σ-mak-men,Σ+mak+me+n,Σ m a k m e n,Σ + m a k + m e + n,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul185,se,1.pl.excl.nfut.neg,se-mak-ung,Σ-mak-ung,Σ+mak+ung,Σ m a k u ŋ,Σ + m a k + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul186,hmu,1.sg.2.sg.nfut.neg,hmu-mak-che-eng,Σ-mak-che-eng,Σ+mak+che+eng,Σ m a k tʃ e e ŋ,Σ + m a k + tʃ e + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul187,hmu,1.sg.2.pl.nfut.neg,hmu-mak-chei-eng,Σ-mak-chei-eng,Σ+mak+chei+eng,Σ m a k tʃ ei e ŋ,Σ + m a k + tʃ ei + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul188,hmu,1.pl.excl.2.sg.nfut.neg,hmu-mak-che-ung,Σ-mak-che-ung,Σ+mak+che+ung,Σ m a k tʃ e u ŋ,Σ + m a k + tʃ e + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul189,hmu,1.pl.excl.2.pl.nfut.neg,hmu-mak-chei-ung,Σ-mak-chei-ung,Σ+mak+chei+ung,Σ m a k tʃ ei u ŋ,Σ + m a k + tʃ ei + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul190,hmu,1.sg.3.sg.nfut.neg,hmu-mak-eng,Σ-mak-eng,Σ+mak+eng,Σ m a k e ŋ,Σ + m a k + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul191,hmu,1.sg.3.pl.nfut.neg,hmu-mak-hei-eng,Σ-mak-hei-eng,Σ+mak+hei+eng,Σ m a k h ei e ŋ,Σ + m a k + h ei + e ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul192,hmu,1.pl.incl.3.sg.nfut.neg,hmu-mak-me,Σ-mak-me,Σ+mak+me,Σ m a k m e,Σ + m a k + m e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul193,hmu,1.pl.excl.3.sg.nfut.neg,hmu-mak-ung,Σ-mak-ung,Σ+mak+ung,Σ m a k u ŋ,Σ + m a k + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul194,hmu,1.pl.incl.3.pl.nfut.neg,hmu-mak-hei-me,Σ-mak-hei-me,Σ+mak+hei+me,Σ m a k h ei m e,Σ + m a k + h ei + m e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul195,hmu,1.pl.excl.3.pl.nfut.neg,hmu-mak-hei-ung,Σ-mak-hei-ung,Σ+mak+hei+ung,Σ m a k h ei u ŋ,Σ + m a k + h ei + u ŋ,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul196,se,2.sg.nfut.neg,se-mak-che,Σ-mak-che,Σ+mak+che,Σ m a k tʃ e,Σ + m a k + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul197,se,2.pl.nfut.neg,se-mak-chei,Σ-mak-chei,Σ+mak+chei,Σ m a k tʃ ei,Σ + m a k + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul198,hmu,2.sg.1.sg.nfut.neg,ei-hmu-mak-che,ei-Σ-mak-che,ei+Σ+mak+che,ei Σ m a k tʃ e,ei + Σ + m a k + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul199,hmu,2.sg.1.sg.nfut.neg,a-hmu-mak-che,a-Σ-mak-che,a+Σ+mak+che,a Σ m a k tʃ e,a + Σ + m a k + tʃ e,generated,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul200,hmu,2.sg.1.pl.excl.nfut.neg,ei-hmu-mak-che,ei-Σ-mak-che,ei+Σ+mak+che,ei Σ m a k tʃ e,ei + Σ + m a k + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul201,hmu,2.sg.1.pl.excl.nfut.neg,a-hmu-mak-che,a-Σ-mak-che,a+Σ+mak+che,a Σ m a k tʃ e,a + Σ + m a k + tʃ e,generated,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul202,hmu,2.pl.1.sg.nfut.neg,ei-hmu-mak-chei,ei-Σ-mak-chei,ei+Σ+mak+chei,ei Σ m a k tʃ ei,ei + Σ + m a k + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul203,hmu,2.pl.1.sg.nfut.neg,a-hmu-mak-chei,a-Σ-mak-chei,a+Σ+mak+chei,a Σ m a k tʃ ei,a + Σ + m a k + tʃ ei,generated,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul204,hmu,2.pl.1.pl.excl.nfut.neg,ei-hmu-mak-chei,ei-Σ-mak-chei,ei+Σ+mak+chei,ei Σ m a k tʃ ei,ei + Σ + m a k + tʃ ei,generated,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul205,hmu,2.pl.1.pl.excl.nfut.neg,a-hmu-mak-chei,a-Σ-mak-chei,a+Σ+mak+chei,a Σ m a k tʃ ei,a + Σ + m a k + tʃ ei,elicited,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul206,hmu,2.sg.3.sg.nfut.neg,hmu-mak-che,Σ-mak-che,Σ+mak+che,Σ m a k tʃ e,Σ + m a k + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul207,hmu,2.sg.3.pl.nfut.neg,hmu-mak-hei-che,Σ-mak-hei-che,Σ+mak+hei+che,Σ m a k h ei tʃ e,Σ + m a k + h ei + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul208,hmu,2.sg.3.pl.nfut.neg,hmu-mak-che,Σ-mak-che,Σ+mak+che,Σ m a k tʃ e,Σ + m a k + tʃ e,elicited,unspecified,,optional_plural,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul209,hmu,2.pl.3.sg.nfut.neg,hmu-mak-chei,Σ-mak-chei,Σ+mak+chei,Σ m a k tʃ ei,Σ + m a k + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul210,hmu,2.pl.3.pl.nfut.neg,hmu-mak-hei-chei,Σ-mak-hei-chei,Σ+mak+hei+chei,Σ m a k h ei tʃ ei,Σ + m a k + h ei + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul211,se,3.sg.nfut.neg,se-mak-che,Σ-mak-che,Σ+mak+che,Σ m a k tʃ e,Σ + m a k + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul212,se,3.pl.nfut.neg,se-mak-hei,Σ-mak-hei,Σ+mak+hei,Σ m a k h ei,Σ + m a k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul213,hmu,3.sg.1.sg.nfut.neg,ei-hmu-mak,ei-Σ-mak,ei+Σ+mak,ei Σ m a k,ei + Σ + m a k,generated,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul214,hmu,3.sg.1.sg.nfut.neg,a-hmu-mak,a-Σ-mak,a+Σ+mak,a Σ m a k,a + Σ + m a k,elicited,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul215,hmu,3.sg.1.pl.excl.nfut.neg,a-hmu-mak,a-Σ-mak,a+Σ+mak,a Σ m a k,a + Σ + m a k,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul216,hmu,3.sg.1.pl.excl.nfut.neg,ei-hmu-mak,ei-Σ-mak,ei+Σ+mak,ei Σ m a k,ei + Σ + m a k,generated,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul217,hmu,3.sg.1.pl.incl.nfut.neg,a-hmu-mak,a-Σ-mak,a+Σ+mak,a Σ m a k,a + Σ + m a k,generated,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul218,hmu,3.sg.1.pl.incl.nfut.neg,ei-hmu-mak,ei-Σ-mak,ei+Σ+mak,ei Σ m a k,ei + Σ + m a k,elicited,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul219,hmu,3.pl.1.sg.nfut.neg,ei-hmu-mak-hei,ei-Σ-mak-hei,ei+Σ+mak+hei,ei Σ m a k h ei,ei + Σ + m a k + h ei,elicited,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul220,hmu,3.pl.1.sg.nfut.neg,a-hmu-mak-hei,a-Σ-mak-hei,a+Σ+mak+hei,a Σ m a k h ei,a + Σ + m a k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul221,hmu,3.pl.1.pl.excl.nfut.neg,ei-hmu-mak-hei,ei-Σ-mak-hei,ei+Σ+mak+hei,ei Σ m a k h ei,ei + Σ + m a k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul222,hmu,3.pl.1.pl.excl.nfut.neg,a-hmu-mak-hei,a-Σ-mak-hei,a+Σ+mak+hei,a Σ m a k h ei,a + Σ + m a k + h ei,generated,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul223,hmu,3.pl.1.pl.incl.nfut.neg,ei-hmu-mak-hei,ei-Σ-mak-hei,ei+Σ+mak+hei,ei Σ m a k h ei,ei + Σ + m a k + h ei,generated,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul224,hmu,3.pl.1.pl.incl.nfut.neg,a-hmu-mak-hei,a-Σ-mak-hei,a+Σ+mak+hei,a Σ m a k h ei,a + Σ + m a k + h ei,generated,dialect_var,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul225,hmu,3.sg.2.sg.nfut.neg,hmu-mak-che,Σ-mak-che,Σ+mak+che,Σ m a k tʃ e,Σ + m a k + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul226,hmu,3.sg.2.pl.nfut.neg,hmu-mak-chei,Σ-mak-chei,Σ+mak+chei,Σ m a k tʃ ei,Σ + m a k + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul227,hmu,3.pl.2.sg.nfut.neg,hmu-mak-hei-che,Σ-mak-hei-che,Σ+mak+hei+che,Σ m a k h ei tʃ e,Σ + m a k + h ei + tʃ e,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul228,hmu,3.pl.2.pl.nfut.neg,hmu-mak-hei-chei,Σ-mak-hei-chei,Σ+mak+hei+chei,Σ m a k h ei tʃ ei,Σ + m a k + h ei + tʃ ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul229,hmu,3.pl.2.pl.nfut.neg,hmu-mak-chei,Σ-mak-chei,Σ+mak+chei,Σ m a k tʃ ei,Σ + m a k + tʃ ei,elicited,unspecified,,optional_plural,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul230,hmu,3.sg.3.sg.nfut.neg,hmu-mak,Σ-mak,Σ+mak,Σ m a k,Σ + m a k,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul231,hmu,3.sg.3.pl.nfut.neg,hmu-mak,Σ-mak,Σ+mak,Σ m a k,Σ + m a k,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul232,hmu,3.pl.3.sg.nfut.neg,hmu-mak-hei,Σ-mak-hei,Σ+mak+hei,Σ m a k h ei,Σ + m a k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
+komsaikul233,hmu,3.pl.3.pl.nfut.neg,hmu-mak-hei,Σ-mak-hei,Σ+mak+hei,Σ m a k h ei,Σ + m a k + h ei,elicited,unspecified,,,Kanshouwa2026SaikulKom,nopage,komsaikul
