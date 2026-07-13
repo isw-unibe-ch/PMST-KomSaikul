@@ -11,11 +11,11 @@ plugins:
   - paralex:
       paralex_package_path: "pmst-komsaikul.package.json"
       layout_tables:
-        - tense
+        - tense_aspect
       layout_rows:
-        - undergoer person
-        - undergoer number
+        - person
+        - number
+        - clusivity
       layout_columns:
-        - actor person
-        - actor number
+        - polarity
 repo_url: https://github.com/isw-unibe-ch/PMST-KomSaikul
