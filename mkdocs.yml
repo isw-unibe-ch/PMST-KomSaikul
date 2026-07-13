@@ -1,15 +1,21 @@
 site_name: "PMST-KomSaikul: Person Marking in Saikul Kom (South-Central Trans-Himalayan)"
 docs_dir: docs
+theme:
+  palette:
+    primary: blue
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
 plugins:
   - paralex:
       paralex_package_path: "pmst-komsaikul.package.json"
       layout_tables:
         - tense
-        - polarity
       layout_rows:
-        - person
-        - number
+        - undergoer person
+        - undergoer number
       layout_columns:
-        - person
-        - number
+        - actor person
+        - actor number
 repo_url: https://github.com/isw-unibe-ch/PMST-KomSaikul
