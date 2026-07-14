@@ -2,7 +2,7 @@ site_name: "PMST-KomSaikul: Person Marking in Saikul Kom (South-Central Trans-Hi
 docs_dir: docs
 theme:
   palette:
-    primary: pink
+    primary: blue
   name: material
   features:
     - navigation.tabs
@@ -18,4 +18,6 @@ plugins:
         - clusivity
       layout_columns:
         - polarity
+extra_javascript:
+  - column-filters.js
 repo_url: https://github.com/isw-unibe-ch/PMST-KomSaikul
