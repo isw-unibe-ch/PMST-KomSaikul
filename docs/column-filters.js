@@ -22,65 +22,75 @@
     "tr.column-filters input, tr.column-filters select { width: 100%; box-sizing: border-box; font-size: 0.8rem; padding: 2px 4px; }";
   document.head.appendChild(style);
 
-  document.addEventListener("init.dt", function (e) {
-    var table = e.target;
-    if (!table || !table.id || TARGET_TABLE_IDS.indexOf(table.id) === -1) {
+  function attachFilters() {
+    if (!window.jQuery) {
+      // jQuery (loaded by the plugin's own table template) isn't ready yet.
+      setTimeout(attachFilters, 100);
       return;
     }
 
-    var api = window.jQuery(table).DataTable();
-
-    // Build a second header row to hold the filter controls.
-    var $thead = window.jQuery(table).find("thead");
-    var $filterRow = window.jQuery("<tr class='column-filters'></tr>");
-
-    api.columns().every(function (colIdx) {
-      var column = this;
-      var $th = window.jQuery("<th></th>");
-
-      // Collect distinct raw (unrendered) values for this column.
-      var values = column
-        .data()
-        .toArray()
-        .map(function (v) {
-          if (v === null || v === undefined) return "";
-          return String(v).trim();
-        })
-        .filter(function (v) {
-          return v !== "";
-        });
-
-      var uniqueValues = Array.from(new Set(values)).sort(function (a, b) {
-        return a.localeCompare(b);
-      });
-
-      if (uniqueValues.length > 0 && uniqueValues.length <= DROPDOWN_THRESHOLD) {
-        // Dropdown filter for low-cardinality columns.
-        var $select = window.jQuery("<select><option value=''>All</option></select>");
-        uniqueValues.forEach(function (val) {
-          $select.append(
-            window.jQuery("<option></option>").attr("value", val).text(val)
-          );
-        });
-        $select.on("change", function () {
-          var val = window.jQuery(this).val();
-          // Exact match, still respecting global regex-off setting.
-          var query = val ? "^" + val.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$" : "";
-          column.search(query, true, false).draw();
-        });
-        $th.append($select);
-      } else {
-        // Free-text filter for high-cardinality columns.
-        var $input = window.jQuery("<input type='text' placeholder='Filter...' />");
-        $input.on("keyup change", function () {
-          column.search(window.jQuery(this).val()).draw();
-        });
-        $th.append($input);
+    window.jQuery(document).on("init.dt", function (e) {
+      var table = e.target;
+      if (!table || !table.id || TARGET_TABLE_IDS.indexOf(table.id) === -1) {
+        return;
       }
 
-      $filterRow.append($th);
-    });
+      var api = window.jQuery(table).DataTable();
 
-    $thead.append($filterRow);
-  });
+      // Build a second header row to hold the filter controls.
+      var $thead = window.jQuery(table).find("thead");
+      var $filterRow = window.jQuery("<tr class='column-filters'></tr>");
+
+      api.columns().every(function (colIdx) {
+        var column = this;
+        var $th = window.jQuery("<th></th>");
+
+        // Collect distinct raw (unrendered) values for this column.
+        var values = column
+          .data()
+          .toArray()
+          .map(function (v) {
+            if (v === null || v === undefined) return "";
+            return String(v).trim();
+          })
+          .filter(function (v) {
+            return v !== "";
+          });
+
+        var uniqueValues = Array.from(new Set(values)).sort(function (a, b) {
+          return a.localeCompare(b);
+        });
+
+        if (uniqueValues.length > 0 && uniqueValues.length <= DROPDOWN_THRESHOLD) {
+          // Dropdown filter for low-cardinality columns.
+          var $select = window.jQuery("<select><option value=''>All</option></select>");
+          uniqueValues.forEach(function (val) {
+            $select.append(
+              window.jQuery("<option></option>").attr("value", val).text(val)
+            );
+          });
+          $select.on("change", function () {
+            var val = window.jQuery(this).val();
+            // Exact match, still respecting global regex-off setting.
+            var query = val ? "^" + val.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$" : "";
+            column.search(query, true, false).draw();
+          });
+          $th.append($select);
+        } else {
+          // Free-text filter for high-cardinality columns.
+          var $input = window.jQuery("<input type='text' placeholder='Filter...' />");
+          $input.on("keyup change", function () {
+            column.search(window.jQuery(this).val()).draw();
+          });
+          $th.append($input);
+        }
+
+        $filterRow.append($th);
+      });
+
+      $thead.append($filterRow);
+    });
+  }
+
+  attachFilters();
 })();
