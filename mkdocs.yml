@@ -2,7 +2,7 @@ site_name: "PMST-KomSaikul: Person Marking in Saikul Kom (South-Central Trans-Hi
 docs_dir: docs
 theme:
   palette:
-    primary: blue
+    primary: pink
   name: material
   features:
     - navigation.tabs
