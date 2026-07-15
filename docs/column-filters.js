@@ -5,8 +5,11 @@
  * - Columns with a small number of distinct values get a <select> dropdown.
  * - Columns with many distinct values (e.g. free-text forms) get a text box.
  *
- * This does not touch the plugin's own template — it listens for the
- * DataTables `init.dt` event and augments whichever table fires it.
+ * This does not touch the plugin's own template. Instead of relying on a
+ * single DataTables event (which can be timing-sensitive depending on when
+ * the ajax-loaded data actually arrives), it polls for the target table
+ * until DataTables has been initialised AND its data has loaded, then
+ * attaches the filter row once.
  */
 (function () {
   // Tables this should apply to. Add/remove ids here if needed.
@@ -15,82 +18,117 @@
   // Max number of distinct values before we fall back to a text box.
   var DROPDOWN_THRESHOLD = 20;
 
-  // Inject styling once, so no separate CSS file is needed.
-  var style = document.createElement("style");
-  style.textContent =
-    "tr.column-filters th { padding: 4px 6px; background: transparent; }" +
-    "tr.column-filters input, tr.column-filters select { width: 100%; box-sizing: border-box; font-size: 0.8rem; padding: 2px 4px; }";
-  document.head.appendChild(style);
+  var styleInjected = false;
+  function injectStyle() {
+    if (styleInjected) return;
+    styleInjected = true;
+    var style = document.createElement("style");
+    style.textContent =
+      "tr.column-filters th { padding: 4px 6px; background: transparent; }" +
+      "tr.column-filters input, tr.column-filters select { width: 100%; box-sizing: border-box; font-size: 0.8rem; padding: 2px 4px; }" +
+      "table.dataTable.filterable-table { width: auto !important; }" +
+      "table.dataTable.filterable-table td { white-space: normal; max-width: 300px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }" +
+      "div.dataTables_wrapper { overflow-x: auto; }";
+    document.head.appendChild(style);
+  }
 
-  function attachFilters() {
-    if (!window.jQuery) {
-      // jQuery (loaded by the plugin's own table template) isn't ready yet.
-      setTimeout(attachFilters, 100);
-      return;
-    }
+  function stripHtml(str) {
+    if (typeof str !== "string") return str;
+    if (str.indexOf("<") === -1) return str; // fast path, no tags present
+    var tmp = document.createElement("div");
+    tmp.innerHTML = str;
+    return (tmp.textContent || tmp.innerText || "").trim();
+  }
 
-    window.jQuery(document).on("init.dt", function (e) {
-      var table = e.target;
-      if (!table || !table.id || TARGET_TABLE_IDS.indexOf(table.id) === -1) {
-        return;
-      }
+  function buildFilters(table) {
+    var $ = window.jQuery;
+    if (!$ || !$.fn || !$.fn.dataTable) return; // libraries not loaded yet
+    if (!$.fn.dataTable.isDataTable(table)) return; // DataTables not initialised yet
+    if ($(table).find("tr.column-filters").length) return; // already added
 
-      var api = window.jQuery(table).DataTable();
+    var api = $(table).DataTable();
+    if (api.rows().count() === 0) return; // ajax data hasn't arrived yet, try again later
 
-      // Build a second header row to hold the filter controls.
-      var $thead = window.jQuery(table).find("thead");
-      var $filterRow = window.jQuery("<tr class='column-filters'></tr>");
+    // Default to showing 50 rows instead of the plugin's built-in 10.
+    api.page.len(50);
 
-      api.columns().every(function (colIdx) {
-        var column = this;
-        var $th = window.jQuery("<th></th>");
+    // Let the table size itself to its content instead of stretching to
+    // fill the page width, and keep long cell values from ballooning it.
+    $(table).addClass("filterable-table");
 
-        // Collect distinct raw (unrendered) values for this column.
-        var values = column
-          .data()
-          .toArray()
-          .map(function (v) {
-            if (v === null || v === undefined) return "";
-            return String(v).trim();
-          })
-          .filter(function (v) {
-            return v !== "";
-          });
+    injectStyle();
 
-        var uniqueValues = Array.from(new Set(values)).sort(function (a, b) {
-          return a.localeCompare(b);
+    var $thead = $(table).find("thead");
+    var $filterRow = $("<tr class='column-filters'></tr>");
+
+    api.columns().every(function () {
+      var column = this;
+      var $th = $("<th></th>");
+
+      // Collect distinct raw (unrendered) values for this column.
+      var values = column
+        .data()
+        .toArray()
+        .map(function (v) {
+          if (v === null || v === undefined) return "";
+          return stripHtml(String(v)).trim();
+        })
+        .filter(function (v) {
+          return v !== "";
         });
 
-        if (uniqueValues.length > 0 && uniqueValues.length <= DROPDOWN_THRESHOLD) {
-          // Dropdown filter for low-cardinality columns.
-          var $select = window.jQuery("<select><option value=''>All</option></select>");
-          uniqueValues.forEach(function (val) {
-            $select.append(
-              window.jQuery("<option></option>").attr("value", val).text(val)
-            );
-          });
-          $select.on("change", function () {
-            var val = window.jQuery(this).val();
-            // Exact match, still respecting global regex-off setting.
-            var query = val ? "^" + val.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$" : "";
-            column.search(query, true, false).draw();
-          });
-          $th.append($select);
-        } else {
-          // Free-text filter for high-cardinality columns.
-          var $input = window.jQuery("<input type='text' placeholder='Filter...' />");
-          $input.on("keyup change", function () {
-            column.search(window.jQuery(this).val()).draw();
-          });
-          $th.append($input);
-        }
-
-        $filterRow.append($th);
+      var uniqueValues = Array.from(new Set(values)).sort(function (a, b) {
+        return a.localeCompare(b);
       });
 
-      $thead.append($filterRow);
+      if (uniqueValues.length > 0 && uniqueValues.length <= DROPDOWN_THRESHOLD) {
+        // Dropdown filter for low-cardinality columns.
+        var $select = $("<select><option value=''>All</option></select>");
+        uniqueValues.forEach(function (val) {
+          $select.append($("<option></option>").attr("value", val).text(val));
+        });
+        $select.on("change", function () {
+          var val = $(this).val();
+          var query = val ? "^" + val.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$" : "";
+          column.search(query, true, false).draw();
+        });
+        $th.append($select);
+      } else {
+        // Free-text filter for high-cardinality columns.
+        var $input = $("<input type='text' placeholder='Filter...' />");
+        $input.on("keyup change", function () {
+          column.search($(this).val()).draw();
+        });
+        $th.append($input);
+      }
+
+      $filterRow.append($th);
+    });
+
+    $thead.append($filterRow);
+
+    api.draw(false);
+    api.columns.adjust();
+  }
+
+  function poll() {
+    TARGET_TABLE_IDS.forEach(function (id) {
+      var table = document.getElementById(id);
+      if (table) buildFilters(table);
     });
   }
 
-  attachFilters();
+  // Poll every 300ms for up to ~30s, which is far more than enough time for
+  // jQuery, DataTables, and the (small) ajax-loaded JSON to all be ready.
+  var attempts = 0;
+  var maxAttempts = 100;
+  var intervalId = setInterval(function () {
+    poll();
+    attempts++;
+    if (attempts >= maxAttempts) {
+      clearInterval(intervalId);
+    }
+  }, 300);
+
+  poll();
 })();
