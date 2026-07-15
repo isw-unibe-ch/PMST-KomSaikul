@@ -27,7 +27,7 @@
       "tr.column-filters th { padding: 4px 6px; background: transparent; }" +
       "tr.column-filters input, tr.column-filters select { width: 100%; box-sizing: border-box; font-size: 0.8rem; padding: 2px 4px; }" +
       "table.dataTable.filterable-table { width: auto !important; }" +
-      "table.dataTable.filterable-table td { white-space: normal; max-width: 300px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }" +
+      "table.dataTable.filterable-table td { white-space: normal; max-width: 300px; line-height: 1.3em; max-height: 2.6em; overflow: hidden; }" +
       "div.dataTables_wrapper { overflow-x: auto; }";
     document.head.appendChild(style);
   }
@@ -42,15 +42,12 @@
 
   function buildFilters(table) {
     var $ = window.jQuery;
-    if (!$ || !$.fn || !$.fn.dataTable) return; // libraries not loaded yet
-    if (!$.fn.dataTable.isDataTable(table)) return; // DataTables not initialised yet
-    if ($(table).find("tr.column-filters").length) return; // already added
+    if (!$ || !$.fn || !$.fn.dataTable) return false; // libraries not loaded yet
+    if (!$.fn.dataTable.isDataTable(table)) return false; // DataTables not initialised yet
+    if ($(table).find("tr.column-filters").length) return true; // already added, nothing to do
 
     var api = $(table).DataTable();
-    if (api.rows().count() === 0) return; // ajax data hasn't arrived yet, try again later
-
-    // Default to showing 50 rows instead of the plugin's built-in 10.
-    api.page.len(50);
+    if (api.rows().count() === 0) return false; // ajax data hasn't arrived yet, try again later
 
     // Let the table size itself to its content instead of stretching to
     // fill the page width, and keep long cell values from ballooning it.
@@ -107,25 +104,37 @@
 
     $thead.append($filterRow);
 
-    api.draw(false);
+    // Show 50 rows by default instead of the plugin's built-in 10, and
+    // redraw once so the filter row and new page length take effect.
+    api.page.len(50).draw(false);
     api.columns.adjust();
+
+    return true;
   }
 
   function poll() {
+    // Returns true once every target table actually present on this page
+    // has its filters attached (a page only ever has one of these tables,
+    // but this stays correct even if that ever changes).
+    var allDone = true;
     TARGET_TABLE_IDS.forEach(function (id) {
       var table = document.getElementById(id);
-      if (table) buildFilters(table);
+      if (!table) return; // this table doesn't exist on the current page
+      var done = buildFilters(table);
+      if (!done) allDone = false;
     });
+    return allDone;
   }
 
-  // Poll every 300ms for up to ~30s, which is far more than enough time for
-  // jQuery, DataTables, and the (small) ajax-loaded JSON to all be ready.
+  // Poll every 300ms for up to ~30s (jQuery, DataTables, and the small
+  // ajax-loaded JSON all need a moment to be ready), stopping as soon as
+  // the filters are successfully attached.
   var attempts = 0;
   var maxAttempts = 100;
   var intervalId = setInterval(function () {
-    poll();
+    var done = poll();
     attempts++;
-    if (attempts >= maxAttempts) {
+    if (done || attempts >= maxAttempts) {
       clearInterval(intervalId);
     }
   }, 300);
