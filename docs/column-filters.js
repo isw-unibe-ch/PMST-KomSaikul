@@ -27,7 +27,7 @@
       "tr.column-filters th { padding: 4px 6px; background: transparent; }" +
       "tr.column-filters input, tr.column-filters select { width: 100%; box-sizing: border-box; font-size: 0.8rem; padding: 2px 4px; }" +
       "table.dataTable.filterable-table { width: auto !important; }" +
-      "table.dataTable.filterable-table td { white-space: normal; max-width: 300px; line-height: 1.3em; max-height: 2.6em; overflow: hidden; }" +
+      "table.dataTable.filterable-table td { white-space: nowrap; }" +
       "div.dataTables_wrapper { overflow-x: auto; }";
     document.head.appendChild(style);
   }
